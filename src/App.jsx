@@ -4,7 +4,7 @@ import reelVideo from './assets/reel.mp4';
 
 function App() {
   const handleBuy = () => {
-    const phone = "916354049502"; // Replace with your WhatsApp number
+    const phone = "916351781008"; // Replace with your WhatsApp number
     const message = "I want to order: 10s reel edit for 100rs";
     const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
     window.open(url, "_blank");
