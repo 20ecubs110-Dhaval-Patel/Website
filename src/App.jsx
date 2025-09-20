@@ -14,7 +14,13 @@ function App() {
     <div className="App">
       <h1>Reel Editing Orders</h1>
       <div className="reel-card">
-        <video className="reel-video" controls>
+        <video
+          className="reel-video"
+          controls
+          controlsList="nodownload noremoteplayback noplaybackrate"
+          disablePictureInPicture
+          onContextMenu={(e) => e.preventDefault()}
+        >
           <source src={reelVideo} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
