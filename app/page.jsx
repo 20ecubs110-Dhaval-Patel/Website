@@ -98,10 +98,9 @@ export default function Home() {
           ref={pricingRef}
           className="py-16 px-4 sm:px-10 min-h-screen bg-gray-50"
         >
-          <h2 className="text-3xl font-bold text-center mb-12">
+          <h2 className="text-3xl font-bold text-center mb-12 text-black">
             Choose Your Reel Package
           </h2>
-
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {/* Reel Card 1 */}
             <div className="bg-white rounded-lg shadow-md p-4 flex flex-col items-center text-center hover:shadow-lg transition">
@@ -172,7 +171,7 @@ export default function Home() {
       {/* Footer */}
       <footer
         id="contact"
-        className={`bg-gray-100 text-center py-10 text-gray-600 ${showPricing ? "" : "mt-20"
+        className={`text-center py-10  ${showPricing ? "" : "mt-20"
           }`}
       >
         <p>
