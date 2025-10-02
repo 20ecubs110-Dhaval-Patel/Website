@@ -16,7 +16,7 @@ export default function Home() {
   // ✅ WhatsApp Buy Function
   const handleBuy = (packageName, price) => {
     const phone = "916351781008"; // Replace with your WhatsApp number
-    const message = `I want toorder: ${packageName} for ₹${price}`;
+    const message = `I want to order: ${packageName} for ₹${price}`;
     const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
     window.open(url, "_blank");
   };
@@ -126,7 +126,7 @@ export default function Home() {
               </ul>
 
               <button
-                onClick={() => handleBuy("10s reel edit", 100)}
+                onClick={() => handleBuy("20s reel edit", 200)}
                 className="mt-4 px-6 py-2 bg-green-600 text-white rounded hover:bg-green-700 hover:scale-105 transition"
               >
                 Buy
@@ -158,7 +158,7 @@ export default function Home() {
               </ul>
 
               <button
-                onClick={() => handleBuy("10s reel edit", 100)}
+                onClick={() => handleBuy("30s reel edit", 300)}
                 className="mt-4 px-6 py-2 bg-green-600 text-white rounded hover:bg-green-700 hover:scale-105 transition"
               >
                 Buy
