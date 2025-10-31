@@ -36,12 +36,12 @@ export default function Home() {
       <header className="w-full fixed top-0 left-0 bg-green-600 text-white shadow-md flex items-center justify-between px-6 h-14 z-10">
         <h1 className="font-bold text-lg">🎬 Reel Editor</h1>
         <nav className="space-x-4 text-sm flex items-center">
-          <a href="#pricing" className="hover:underline text-white">
+          {/* <a href="#pricing" className="hover:underline text-white">
             Pricing
           </a>
           <a href="#contact" className="hover:underline text-white">
             Contact
-          </a>
+          </a> */}
           {showPricing && (
             <>
               {/* Cart button */}
@@ -175,13 +175,15 @@ export default function Home() {
           }`}
       >
         <p>
-          📧 Contact:{" "}
+          📧 Contact:{" +91 6351781008"}
+          {/*
           <a
             href="mailto:youremail@example.com"
             className="text-green-600 hover:underline"
           >
             youremail@example.com
           </a>
+          */}
         </p>
         <p className="mt-2 text-sm">© {year} Reel Editor. All rights reserved.</p>
       </footer>
