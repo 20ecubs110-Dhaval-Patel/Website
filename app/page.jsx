@@ -175,15 +175,13 @@ export default function Home() {
           }`}
       >
         <p>
-          📧 Contact:{" +91 6351781008"}
-          {/*
-          <a
-            href="mailto:youremail@example.com"
+          📞 +91 6351781008 
+          📧 <a
+            href="mailto:yugsurti7r@gmail.com"
             className="text-green-600 hover:underline"
           >
-            youremail@example.com
+            yugsurti7r@gmail.com
           </a>
-          */}
         </p>
         <p className="mt-2 text-sm">© {year} Reel Editor. All rights reserved.</p>
       </footer>
