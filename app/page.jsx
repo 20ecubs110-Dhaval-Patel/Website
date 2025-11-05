@@ -34,7 +34,7 @@ export default function Home() {
     <>
       {/* Topbar */}
       <header className="w-full fixed top-0 left-0 bg-green-600 text-white shadow-md flex items-center justify-between px-6 h-14 z-10">
-        <h1 className="font-bold text-lg">🎬 Reel Editor</h1>
+        <h1 className="font-bold text-lg">🎬 ANYedits</h1>
         <nav className="space-x-4 text-sm flex items-center">
           {/* <a href="#pricing" className="hover:underline text-white">
             Pricing
