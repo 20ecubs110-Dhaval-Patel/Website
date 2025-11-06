@@ -109,6 +109,8 @@ export default function Home() {
                 <video
                   className="rounded-lg shadow-lg w-full aspect-video max-h-60 sm:max-h-72 md:max-h-80"
                   controls
+                  playsinline
+                  webkit-playsinline
                   controlsList="nodownload noremoteplayback noplaybackrate"
                   disablePictureInPicture
                   onContextMenu={(e) => e.preventDefault()}
@@ -141,6 +143,8 @@ export default function Home() {
                 <video
                   className="rounded-lg shadow-lg w-full aspect-video max-h-60 sm:max-h-72 md:max-h-80"
                   controls
+                  playsinline
+                  webkit-playsinline
                   controlsList="nodownload noremoteplayback noplaybackrate"
                   disablePictureInPicture
                   onContextMenu={(e) => e.preventDefault()}
@@ -175,7 +179,7 @@ export default function Home() {
           }`}
       >
         <p>
-          📞 +91 6351781008 
+          📞 +91 6351781008
           📧 <a
             href="mailto:yugsurti7r@gmail.com"
             className="text-green-600 hover:underline"
