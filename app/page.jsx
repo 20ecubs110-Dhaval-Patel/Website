@@ -115,7 +115,7 @@ export default function Home() {
                   disablePictureInPicture
                   onContextMenu={(e) => e.preventDefault()}
                 >
-                  <source src="/Reel1.mp4" type="video/mp4" />
+                  <source src="/Landscape_Reel1.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
               </div>
@@ -149,7 +149,7 @@ export default function Home() {
                   disablePictureInPicture
                   onContextMenu={(e) => e.preventDefault()}
                 >
-                  <source src="/Reel2.mp4" type="video/mp4" />
+                  <source src="/Landscape_Reel2.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
               </div>
