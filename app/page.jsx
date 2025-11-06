@@ -109,8 +109,8 @@ export default function Home() {
                 <video
                   className="rounded-lg shadow-lg w-full aspect-video max-h-60 sm:max-h-72 md:max-h-80"
                   controls
-                  playsinline
-                  webkit-playsinline
+                  playsInline
+                  webkit-playsinline="true"
                   controlsList="nodownload noremoteplayback noplaybackrate"
                   disablePictureInPicture
                   onContextMenu={(e) => e.preventDefault()}
@@ -143,8 +143,8 @@ export default function Home() {
                 <video
                   className="rounded-lg shadow-lg w-full aspect-video max-h-60 sm:max-h-72 md:max-h-80"
                   controls
-                  playsinline
-                  webkit-playsinline
+                  playsInline
+                  webkit-playsinline="true"
                   controlsList="nodownload noremoteplayback noplaybackrate"
                   disablePictureInPicture
                   onContextMenu={(e) => e.preventDefault()}
